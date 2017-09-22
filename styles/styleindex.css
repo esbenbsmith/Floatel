@@ -13,34 +13,37 @@
     transform: translateX(-50%) translateY(-50%);
     background: url(polina.jpg) no-repeat;
     background-size: cover;
-
     opacity:0.7;
-
 }
+/* END BACKGROUND */
 
-.container h1 {
-    color: white;
-}
 
 
 /* Navbar */
 
-.floatel {
+.floatellogo {
     max-width:200;
 }
-
 .navbar-inner {
-    background:transparent;
-    
+    background:transparent;  
 }
-
 .navbar .navbar-nav > li > a {
    color: white;
    font-size:16px;
    font-style: bold;
     }
-
-    .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
+.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
 color: black;
 background:white; 
 }
+/* END NAVBAR */
+
+/* Index */
+
+.header {
+    position:absolute;
+    top:300px;
+    left:250px;
+}
+
+/* END INDEX */
